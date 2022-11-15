@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-witdth, initial-scale-1.0">
+  <meta name="description" content="Queres ayudarnos? Aca podes encontrar todo lo necesario">
+  <link class="icono" rel="shortcut icon"
+    href="https://scontent.faep22-1.fna.fbcdn.net/v/t39.30808-6/274854380_4774126709303380_8854475867880462466_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yVaDwWHKDqkAX8WzB1e&_nc_ht=scontent.faep22-1.fna&oh=00_AfAO0RKFxbXyUUjHy78Gt4VZ4WxTl-sZsdG3F9868Cq5WA&oe=636638A3">
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+
+<body class="container-fluid">
+
+  <main>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html"
+                  onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="socio.html"
+                  onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Hacete Socio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="amigos.html"
+                  onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Nuestros amigos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="preguntasFrecuentes.html"
+                  onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');">Preguntas Frecuentes</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="donaciones.html"
+                  onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Donaciones</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="contenedor">
+      <!-- un texto explicando las donaciones-->
+      <h1> Donaciones</h1>
+      <label for="" class="cartel">¿Como podes ayudarnos? </label>
+      <p class=parrafo> Si no podes adoptar pero queres seguir apoyandonos te dejamos nuestro sistema de donaciones</p>
+      <p class=parrafo> Es completamente opcional para aquellos que quieran y puedan aportar su granito de arena</p>
+
+      <!-- las diferentes formas de botar en forma de botones-->
+      <!-- todos los botones llevan a la seccion de donaciones reales de la pagina, por si algun interesado encuentra esto-->
+
+      <div class="d-grid gap-2 col-6 mx-auto">
+
+        <button class="btn btn-primary" type="submit"
+          onclick="location.href='https://api.whatsapp.com/send/?phone=541137912837&text=Hola%21+Quiero+donar+medicamentos%2Fproductos.&type=phone_number&app_absent=0'"
+          formtarget="_blank">Dona alimento o medicamentos</button>
+
+        <button class="btn btn-primary" type="button" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $1500</button>
+
+        <button class="btn btn-primary" type="button" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $1000</button>
+
+        <button class="btn btn-primary" type="button" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $800</button>
+
+        <button class="btn btn-primary" type="button" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $500</button>
+
+        <button class="btn btn-primary" type="button" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $400</button>
+
+        <button class="btn btn-primary" type="button" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $200</button>
+
+        <button class="btn btn-primary" type="submit" onclick="location.href='https://linktr.ee/soplodevida_'"
+          target="_blank">Dona por MercadoPago $100</button>
+
+      </div>
+
+      <!--no conozco la propiedad para que el boton te dirija a una nueva pestaña, dado que taget="_blnk" o formtarget="_blank" no me funciono-->
+
+      <!-- Footer con los enlaces (los enlaces son reales a las redes del refugio de animales)-->
+      <footer>
+
+        <div class="card">
+
+          <div class="card-body">
+            <h2 class="card-title" id="footerID">Redes</h2>
+            <p class="card-text">Estas son algunas de nuestras redes, encontranos! Nuestra tienda tiene muchos productos
+              interesantes, pasate a chusmear!</p>
+            <a href="https://www.instagram.com/soplodevida_/" class="btn btn-primary" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/SoplodeVidaAnimal/" class="btn btn-primary" target="_blank">Facebook</a>
+            <a href="mailto:info@soplodevida.org" class="btn btn-primary" target="_blank">Nuestro Correo</a>
+            <a href="https://www.bichxsmarket.com/soplo-de-vida/" class="btn btn-primary" target="_blank">Tienda</a>
+
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+
+
+</body>
+
+
+</html>

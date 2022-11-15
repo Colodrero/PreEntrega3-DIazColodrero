@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- conexion al css -->
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-witdth, initial-scale-1.0">
+  <meta name="keywords" content="soplo de vida, adoptar, animales, donaciones">
+  <meta name="description" content="sitio web de soplo de vida para adoptar animales">
+  <link class="icono" rel="shortcut icon"
+    href="https://scontent.faep22-1.fna.fbcdn.net/v/t39.30808-6/274854380_4774126709303380_8854475867880462466_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yVaDwWHKDqkAX8WzB1e&_nc_ht=scontent.faep22-1.fna&oh=00_AfAO0RKFxbXyUUjHy78Gt4VZ4WxTl-sZsdG3F9868Cq5WA&oe=636638A3">
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="container-fluid">
+  <!-- presentacion del proyecto con las opciones de la pagina-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"
+                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Paginas/socio.html"
+                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Hacete Socio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Paginas/amigos.html"
+                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Nuestros amigos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Paginas/preguntasFrecuentes.html"
+                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Themes');">Preguntas Frecuentes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Paginas/donaciones.html"
+                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Donaciones</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <div class="contenedor">
+      <!-- comentario descriptivo-->
+
+      <h1 class="bd-title" id="content">Quienes somos</h1>
+      <p class="bd-lead">Soplo de vida es una fundación sin fines de lucro que se encarga de rescatar, recuperar y dar
+        en adopción responsable a animales en situaciones de riesgo. Nuestra misión es ser el nexo entre su pasado y su
+        futuro.
+        Pero para poder seguir ayudándolos los necesitamos a ustedes; difundiendo, dando transito, pero sobretodo
+        adoptando. Nuestros 'soplitos' cuentan con ustedes: El eslabón más importante.
+
+        Queremos ser el nexo entre vos y tu mejor amigo. Tenemos muchos perros que esperan una segunda oportunidad.
+        Animate a salvar una vida❤️
+
+      </p>
+
+
+      <h2> ¿Sabes qué es el distemper (moquillo) canino y como prevenirlo?</h2>
+
+      <!-- agrego animacion acerca del cuidado animal aprovechando el sistema de columnas y filas de bootstrap-->
+      <div class="row">
+        <div class="col-xl-4 col-md-12 col-sm-12">
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner" class="ratio ratio-16x9">
+
+              <!-- el carrusel empieza por el 2 dado que poner tantas fotos me rompia la animacion.-->
+              <div class="carousel-item">
+                <img src="img/inicio/inicio2.jpg" class="d-block w-100" alt="segundaFotoInicio">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/inicio/inicio3.jpg" class="d-block w-100" alt="terceraFotoInicio">
+              </div>
+
+              <div class="carousel-item active">
+                <img src="img/inicio/inicio4.jpg" class="d-block w-100" alt="cuartaFotoInicio">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/inicio/inicio5.jpg" class="d-block w-100" alt="quintaFotoInicio">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/inicio/inicio6.jpg" class="d-block w-100" alt="sextaFotoInicio">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/inicio/inicio7.jpg" class="d-block w-100" alt="septimaFotoInicio">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/inicio/inicio8.jpg" class="d-block w-100" alt="octavaFotoInicio">
+              </div>
+
+
+            </div>
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+
+        </div>
+
+        <div class="col-xl-6 col-md-6 col-sm-12">
+          <p class="parrafo">
+
+            Es un enfermedad que afecta el sistema respiratorio, el gastrointestinal, y en los estados más avanzados, el
+            neurológico. Es una enfermedad sin tratamiento, es decir, solo se tratan los síntomas, pero no ataca
+            directamente el virus. Por eso, lo más importante es la PREVENCIÓN.
+
+            En este caso, prevenir es la única cura asegurada. Es una de las enfermedades más duras para atravesar, y
+            acompañar 🥺 ¿Pero saben cual es la parte más dura? Saber que todo se podría haber evitado con UNA VACUNA.
+          </p>
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+      <!-- Footer con los enlaces (los enlaces son reales a las redes del refugio de animales)-->
+      <footer>
+
+        <div class="card">
+
+          <div class="card-body">
+            <h3 class="card-title" id="footerID">Redes</h3>
+            <p class="card-text">Estas son algunas de nuestras redes, encontranos! Nuestra tienda tiene muchos productos
+              interesantes, pasate a chusmear!</p>
+            <a href="https://www.instagram.com/soplodevida_/" class="btn btn-primary" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/SoplodeVidaAnimal/" class="btn btn-primary" target="_blank">Facebook</a>
+            <a href="mailto:info@soplodevida.org" class="btn btn-primary" target="_blank">Nuestro Correo</a>
+            <a href="https://www.bichxsmarket.com/soplo-de-vida/" class="btn btn-primary" target="_blank">Tienda</a>
+
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    </div>
+  </main>
+</body>
+
+</html>
